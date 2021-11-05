@@ -1,0 +1,25 @@
+.tile-wall {
+  background: url("../img/wall.gif");
+  width: 32px;
+  height: 32px;
+}
+.tile-space {
+  background: #fff;
+  width: 32px;
+  height: 32px;
+}
+.tile-goal {
+  background: url("../img/goal.gif");
+  width: 32px;
+  height: 32px;
+}
+.entity-player {
+  background: url("../img/player.gif");
+  width: 32px;
+  height: 32px;
+}
+.entity-block {
+  background: url("../img/block.gif");
+  width: 32px;
+  height: 32px;
+}
