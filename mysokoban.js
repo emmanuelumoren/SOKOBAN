@@ -43,7 +43,7 @@
 		}
 		document.body.appendChild(main); // append the main element to the body element
 	}
-
+           // this line of code use Eventlistener Button on the webpage//
     document.getElementById ("buttonUp").addEventListener("click",() => move(player,"up"));
     document.getElementById ("buttonDown").addEventListener("click",() => move(player,"down"));
     document.getElementById ("buttonLeft").addEventListener("click",() => move(player,"left"));
@@ -106,7 +106,7 @@
 		return true;
 	}
 
-	// get pressed key
+	// get pressed key from the keyboard players//
 	function readKey(event) {
 		switch(event.keyCode) {
 			case 37:
